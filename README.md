@@ -29,3 +29,7 @@
 #### (install body parer to acces the variable from actual server, but you no longer need to bodyParser as its built into express now)
 
 `npm i body-parser`
+
+#### (multer allows to work with multi platform which allows to work with files forms)
+
+`npm i multer`
