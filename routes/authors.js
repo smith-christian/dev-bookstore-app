@@ -2,6 +2,8 @@ const express = require('express')
 const router = express.Router()
 const Author = require('../models/author')
 
+// Author.collection.drop()
+
 //All Authors Route
 router.get('/', async (req, res) => {
     let searchOptions = {}
@@ -32,6 +34,7 @@ router.post('/', async(req, res) => {
     })
 
     try{
+        
         const newAuthor =  await author.save()
         // res.redirect(`authors/${newAuthor.id}
         res.redirect(`authors/`)
