@@ -1,6 +1,7 @@
-# Install node in order to run this command lines
+## Install node in order to run this command lines
 
-# This npm init command will get JSON package ready
+
+#### This npm init command will get JSON package ready
 
 `npm init`
 
@@ -8,7 +9,7 @@
 
 `npm init -y`
 
-# Some basic dependencies for server to be up and runing
+## Some basic dependencies for server to be up and runing
 
 #### (ejx is for templating engine and layouts which allowes to layout all the HTML files)
 
@@ -33,3 +34,7 @@
 #### (multer allows to work with multi platform which allows to work with files forms)
 
 `npm i multer`
+
+#### (Method-override lets you use HTTP verbs such as PUT or DELETE in places where the client doesn't support it)
+
+`npm i method-override`
